@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.header__logo {
+    margin: 0 auto;
+}
+
+.white-link {
+    font-weight: 900;
+    color: #fff;
+}
+
+.header__langs {
+    display: none!important;
+}
+
+.content__banner__tnc__head_2,
+.tnc2 {
+    display: none;
+}
+
+.deposito {
+    padding-left: 18px;
+    margin: 18px 0;
+    line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+    .table--parent {
+        overflow-x: scroll;
+        width: auto;
+        padding: 0 16px;
+        margin: 0px -32px;
+    }
+    .table--parent table {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        visibility: visible;
+        height: 100%;
+        padding: 0 -16px;
+    }
+}
